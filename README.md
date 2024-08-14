@@ -20,7 +20,6 @@ Ensure you have Python 3.6 or later installed. You will also need pip to install
 ### Installation
 1. Clone the Repository
 git clone https://github.com/yourusername/house-price-prediction.git
-cd house-price-prediction
 
 2. Create a Virtual Environment (Optional but recommended)
 python -m venv venv
@@ -30,7 +29,9 @@ source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 pip install -r requirements.txt
 4. Running the Application
 Start the Flask Server
+
 python app.py
+
 Access the Application
 
 Open your web browser and go to http://127.0.0.1:5000/ to access the application.
